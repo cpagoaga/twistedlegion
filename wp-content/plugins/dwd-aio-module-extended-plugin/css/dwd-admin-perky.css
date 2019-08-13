@@ -1,0 +1,24 @@
+.et_pb_aio_extended {
+    background: #fecd08 !important;
+    color: #101723 !important;
+}
+
+.et_pb_aio_extended:hover {
+    background: #ffb347 !important;
+    letter-spacing: -1px;
+}
+.et_pb_aio_extended:before {
+    color: #101723;
+    font-size: 16px !important;
+    border-radius: 50%;
+    padding: 8px;
+    border: 1px solid #101723;
+}
+
+.et_pb_aio_extended .et_module_title {
+    margin-left: 5px;
+    font-size: 16px;
+}
+.et-pb-option-container.et-pb-option-container--yes_no_button .description {
+    margin-top: 30px;
+}

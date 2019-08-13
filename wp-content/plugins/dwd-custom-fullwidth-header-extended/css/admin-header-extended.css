@@ -1,0 +1,68 @@
+.et_pb_fullwidth_header_extended, .et_pb_fullwidth_dwd_popup {
+    background: #fecd08 !important;
+    color: #101723 !important;
+}
+
+.et_pb_fullwidth_header_extended:hover, .et_pb_fullwidth_dwd_popup:hover {
+    background: #ffb347 !important;
+    letter-spacing: -1px;
+}
+
+.et_pb_fullwidth_header_extended:before {
+    color: #101723;
+    content: '\61' !important;
+    font-size: 14px !important;
+    border-radius: 50%;
+    padding: 8px;
+    border: 1px solid #101723;
+}
+
+.et_pb_fullwidth_header_extended .et_module_title {
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+[data-module_type="et_pb_fullwidth_header_extended"] .et-pb-preview-screensize-switcher li a,
+.et-pb-options-tabs-links li a {
+    font-size: 14px;
+    padding: 20px 30px !important;
+}
+
+[data-module_type="et_pb_fullwidth_header_extended"] .et-pb-option > label,
+[data-module_type="et_pb_fullwidth_header_extended"] .et_modal_on_top .et_pb_prompt_modal > label {
+    font-size: 14px;
+}
+
+.et_pb_text_extender,
+.et_pb_options_tab_dwdtab a {
+    background: #fecd08 !important;
+    color: #101723 !important;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.et_pb_text_extender:hover,
+.et_pb_options_tab_dwdtab a:hover {
+    background: #ffb347 !important;
+    letter-spacing: -1px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.et_pb_text_extender:before {
+    color: #101723;
+    content: '\28' !important;
+    border-radius: 50%;
+    font-size: 16px !important;
+    padding: 8px;
+    border: 1px solid #101723;
+}
+
+
+/*fix divi select description*/
+
+.et-pb-option-container.et-pb-option-container--yes_no_button .description {
+    margin-top: 30px;
+}
