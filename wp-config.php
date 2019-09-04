@@ -1,10 +1,10 @@
 <?php
 # Database Configuration
 define( 'DB_NAME', 'wp_twistedlegion' );
-define( 'DB_USER', 'twistedlegion' );
-define( 'DB_PASSWORD', 'LSqoXfpvAz2mOKmBaXNR' );
-define( 'DB_HOST', '127.0.0.1' );
-define( 'DB_HOST_SLAVE', '127.0.0.1' );
+define( 'DB_USER', 'root' );
+define( 'DB_PASSWORD', '5FiK3qHXngce' );
+define( 'DB_HOST', 'localhost:3306' );
+define( 'DB_HOST_SLAVE', 'localhost:3306' );
 define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', 'utf8_unicode_ci');
 $table_prefix = 'wp_';
@@ -86,19 +86,19 @@ $wpe_no_cdn_uris=array ( );
 
 $wpe_content_regexs=array ( );
 
-$wpe_all_domains=array ( 0 => 'twistedlegion.com', 1 => 'twistedlegion.wpengine.com', 2 => 'www.twistedlegion.com', );
+#$wpe_all_domains=array ( 0 => 'twistedlegion.com', 1 => 'twistedlegion.wpengine.com', 2 => 'www.twistedlegion.com', );
 
-$wpe_varnish_servers=array ( 0 => 'pod-100337', );
+#$wpe_varnish_servers=array ( 0 => 'pod-100337', );
 
-$wpe_special_ips=array ( 0 => '104.196.146.230', );
+#$wpe_special_ips=array ( 0 => '104.196.146.230', );
 
 $wpe_ec_servers=array ( );
 
 $wpe_largefs=array ( );
 
-$wpe_netdna_domains=array ( 0 =>  array ( 'zone' => '2oy9l31lk5bl32khol13xozl', 'match' => 'www.twistedlegion.com', 'secure' => true, 'enabled' => true, ), 1 =>  array ( 'zone' => '19ngca1w2b3e1cd6ub2vd576', 'match' => 'twistedlegion.com', 'secure' => true, 'enabled' => true, ), 2 =>  array ( 'zone' => '3acacm4am00mqx1of1xrlkgz', 'match' => 'twistedlegion.wpengine.com', 'secure' => true, 'enabled' => true, ), );
+#$wpe_netdna_domains=array ( 0 =>  array ( 'zone' => '2oy9l31lk5bl32khol13xozl', 'match' => 'www.twistedlegion.com', 'secure' => true, 'enabled' => true, ), 1 =>  array ( 'zone' => '19ngca1w2b3e1cd6ub2vd576', 'match' => 'twistedlegion.com', 'secure' => true, 'enabled' => true, ), 2 =>  array ( 'zone' => '3acacm4am00mqx1of1xrlkgz', 'match' => 'twistedlegion.wpengine.com', 'secure' => true, 'enabled' => true, ), );
 
-$wpe_netdna_domains_secure=array ( 0 =>  array ( 'zone' => '2oy9l31lk5bl32khol13xozl', 'match' => 'www.twistedlegion.com', 'secure' => true, 'enabled' => true, ), 1 =>  array ( 'zone' => '19ngca1w2b3e1cd6ub2vd576', 'match' => 'twistedlegion.com', 'secure' => true, 'enabled' => true, ), 2 =>  array ( 'zone' => '3acacm4am00mqx1of1xrlkgz', 'match' => 'twistedlegion.wpengine.com', 'secure' => true, 'enabled' => true, ), );
+#$wpe_netdna_domains_secure=array ( 0 =>  array ( 'zone' => '2oy9l31lk5bl32khol13xozl', 'match' => 'www.twistedlegion.com', 'secure' => true, 'enabled' => true, ), 1 =>  array ( 'zone' => '19ngca1w2b3e1cd6ub2vd576', 'match' => 'twistedlegion.com', 'secure' => true, 'enabled' => true, ), 2 =>  array ( 'zone' => '3acacm4am00mqx1of1xrlkgz', 'match' => 'twistedlegion.wpengine.com', 'secure' => true, 'enabled' => true, ), );
 
 $wpe_netdna_push_domains=array ( );
 
